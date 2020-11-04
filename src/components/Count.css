@@ -1,0 +1,126 @@
+.count {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px lightblue;
+          box-shadow: 0px 4px lightblue;
+  margin-left: 450px;
+}
+
+.count h2 {
+  color: gray;
+  font-size: 22px;
+  font-family: sans-serif;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.count .content {
+  margin-left: -15px;
+  padding-top: 80px;
+}
+
+.count .content button {
+  width: 80px;
+  height: 25px;
+  border: none;
+  outline: none;
+  background-color: salmon;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.count .content button:hover {
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
+}
+
+.count .content button:active {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.count .content button .container {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+}
+
+.count .content button .container p {
+  text-align: center;
+}
+
+.count .content h1 {
+  margin-left: 128px;
+  margin-bottom: 60px;
+  font-size: 48px;
+  background-color: lightskyblue;
+  color: white;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  padding: 10px;
+  border-radius: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid salmon;
+  border-radius: 10px;
+  left: 830px;
+  top: 300px;
+}
+
+.container p {
+  text-align: center;
+  line-height: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .count {
+    margin-left: 15%;
+  }
+  .container {
+    left: 370px;
+    top: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .count {
+    margin-left: 8%;
+  }
+  .container {
+    left: 240px;
+    top: 750px;
+  }
+}
+
+@media (max-width: 576px) {
+  .count {
+    margin-left: 10%;
+  }
+  .container {
+    left: 10%;
+    top: 740px;
+  }
+}
+/*# sourceMappingURL=Count.css.map */
